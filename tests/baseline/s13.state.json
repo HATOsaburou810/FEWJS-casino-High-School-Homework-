@@ -1,0 +1,664 @@
+{
+  "AUTO_SAVE_INTERVAL": 20,
+  "IS_WIN": false,
+  "SAVEDATA_FIELDS": [
+    [
+      "OverflowCleared",
+      "bool"
+    ],
+    [
+      "RtaCleared",
+      "bool"
+    ],
+    [
+      "GameStartTime",
+      "DateTime"
+    ],
+    [
+      "PlayerName",
+      "string"
+    ],
+    [
+      "SaveDate",
+      "DateTime"
+    ],
+    [
+      "PlayTime",
+      "TimeSpan"
+    ],
+    [
+      "SaveSlot",
+      "int"
+    ],
+    [
+      "Money",
+      "int"
+    ],
+    [
+      "Debt",
+      "int"
+    ],
+    [
+      "MaxMoney",
+      "int"
+    ],
+    [
+      "MaxDebt",
+      "int"
+    ],
+    [
+      "GodModeActivateCount",
+      "int"
+    ],
+    [
+      "ConsecutiveLosses",
+      "int"
+    ],
+    [
+      "TotalSpins",
+      "int"
+    ],
+    [
+      "Total777Count",
+      "int"
+    ],
+    [
+      "ConsecutiveWins",
+      "int"
+    ],
+    [
+      "MaxConsecutiveWins",
+      "int"
+    ],
+    [
+      "TotalWinAmount",
+      "int"
+    ],
+    [
+      "TotalLoseAmount",
+      "int"
+    ],
+    [
+      "TotalLoses",
+      "int"
+    ],
+    [
+      "BigWinCount",
+      "int"
+    ],
+    [
+      "Setting",
+      "int"
+    ],
+    [
+      "DebtTurnsRemaining",
+      "int"
+    ],
+    [
+      "HasEverBorrowedMoney",
+      "bool"
+    ],
+    [
+      "GodMode",
+      "bool"
+    ],
+    [
+      "GodModeRemaining",
+      "int"
+    ],
+    [
+      "ConsecutiveHundredPlays",
+      "int"
+    ],
+    [
+      "LuckyTimeActive",
+      "bool"
+    ],
+    [
+      "LuckyTimeRemaining",
+      "int"
+    ],
+    [
+      "HasSeenConversation",
+      "bool"
+    ],
+    [
+      "HasSeenMysteriousWoman",
+      "bool"
+    ],
+    [
+      "UndergroundConsecutiveLoses",
+      "int"
+    ],
+    [
+      "UndergroundTotalSpins",
+      "int"
+    ],
+    [
+      "UndergroundCursedMode",
+      "bool"
+    ],
+    [
+      "ItemInventory",
+      "dict"
+    ],
+    [
+      "TotalLuckyCoinsPurchased",
+      "int"
+    ],
+    [
+      "HasGreedRing",
+      "bool"
+    ],
+    [
+      "GreedRingEquipped",
+      "bool"
+    ],
+    [
+      "GreedRingLoseCount",
+      "int"
+    ],
+    [
+      "VipRoomUnlocked",
+      "bool"
+    ],
+    [
+      "IsInVIPRoom",
+      "bool"
+    ],
+    [
+      "VipConsecutiveLoses",
+      "int"
+    ],
+    [
+      "Vip777Count",
+      "int"
+    ],
+    [
+      "Vip5000BetWin",
+      "bool"
+    ],
+    [
+      "VipTotalVisits",
+      "int"
+    ],
+    [
+      "VipTotalWins",
+      "int"
+    ],
+    [
+      "VipTotalSpins",
+      "int"
+    ],
+    [
+      "HasSeenVIPDealer",
+      "bool"
+    ],
+    [
+      "UndergroundUnlocked",
+      "bool"
+    ],
+    [
+      "IsInUnderground",
+      "bool"
+    ],
+    [
+      "UndergroundVisits",
+      "int"
+    ],
+    [
+      "UndergroundWins",
+      "int"
+    ],
+    [
+      "UndergroundAllInWin",
+      "bool"
+    ],
+    [
+      "HasSeenUndergroundDealer",
+      "bool"
+    ],
+    [
+      "DevilContractOffered",
+      "bool"
+    ],
+    [
+      "DevilContractType",
+      "int"
+    ],
+    [
+      "DevilContractActive",
+      "bool"
+    ],
+    [
+      "DevilContractTurns",
+      "int"
+    ],
+    [
+      "ContractStartTime",
+      "DateTime"
+    ],
+    [
+      "Contract1Complete",
+      "bool"
+    ],
+    [
+      "DevilContractSuccess",
+      "bool"
+    ],
+    [
+      "AddictionLevel",
+      "int"
+    ],
+    [
+      "IsAddicted",
+      "bool"
+    ],
+    [
+      "AddictionWarningCount",
+      "int"
+    ],
+    [
+      "HasUsedRehab",
+      "bool"
+    ],
+    [
+      "CursedItemCount",
+      "int"
+    ],
+    [
+      "HasDevilCoin",
+      "bool"
+    ],
+    [
+      "DevilCoinCurse",
+      "int"
+    ],
+    [
+      "DevilCoinWin",
+      "bool"
+    ],
+    [
+      "HasBloodAmulet",
+      "bool"
+    ],
+    [
+      "BloodAmuletLoses",
+      "int"
+    ],
+    [
+      "BloodAmulet5Wins",
+      "int"
+    ],
+    [
+      "HasDeathRing",
+      "bool"
+    ],
+    [
+      "DeathRing10Wins",
+      "int"
+    ],
+    [
+      "HasTimeClock",
+      "bool"
+    ],
+    [
+      "HasOracleBall",
+      "bool"
+    ],
+    [
+      "OracleBallPrediction",
+      "int"
+    ],
+    [
+      "DevilCoinActive",
+      "bool"
+    ],
+    [
+      "BloodAmuletEquipped",
+      "bool"
+    ],
+    [
+      "DeathRingEquipped",
+      "bool"
+    ],
+    [
+      "TimeClockEquipped",
+      "bool"
+    ],
+    [
+      "MetaEventCount",
+      "int"
+    ],
+    [
+      "UnlockedSymbols",
+      "list"
+    ],
+    [
+      "UnlockedEvents",
+      "list"
+    ],
+    [
+      "Missions",
+      "list_mission"
+    ],
+    [
+      "Rankings",
+      "list_highscore"
+    ],
+    [
+      "TrueEndingUnlocked",
+      "bool"
+    ],
+    [
+      "GodModePermanent",
+      "bool"
+    ],
+    [
+      "Contract1WinCount",
+      "int"
+    ],
+    [
+      "Contract2Deadline",
+      "DateTime"
+    ],
+    [
+      "Contract2OriginalDebt",
+      "int"
+    ],
+    [
+      "ShopVisitCount",
+      "int"
+    ],
+    [
+      "ShopCloseWithoutBuyCount",
+      "int"
+    ],
+    [
+      "BellMetFirst",
+      "bool"
+    ],
+    [
+      "MissionOpenCount",
+      "int"
+    ],
+    [
+      "DreamCasinoUnlocked",
+      "bool"
+    ],
+    [
+      "DreamLayerCleared",
+      "int"
+    ],
+    [
+      "MushroomManMet",
+      "bool"
+    ],
+    [
+      "LuckyCoinsTotal",
+      "int"
+    ],
+    [
+      "Chapter1Seen",
+      "bool"
+    ],
+    [
+      "MemoryFragmentsCleared",
+      "bool"
+    ],
+    [
+      "BlackSuitIntroduced",
+      "bool"
+    ],
+    [
+      "AbandonedCasinoUnlocked",
+      "bool"
+    ],
+    [
+      "AbandonedCasinoEntered",
+      "bool"
+    ],
+    [
+      "VanityKeyPurchased",
+      "bool"
+    ],
+    [
+      "RoomsOpened",
+      "rooms"
+    ],
+    [
+      "HasInnocentGem",
+      "bool"
+    ],
+    [
+      "HasJewelRing",
+      "bool"
+    ],
+    [
+      "HasExchangedMoney",
+      "bool"
+    ],
+    [
+      "HasUnknownCoin",
+      "bool"
+    ],
+    [
+      "UnknownCoinFlipCount",
+      "int"
+    ],
+    [
+      "BellRouteACompleted",
+      "bool"
+    ],
+    [
+      "BellRouteBCompleted",
+      "bool"
+    ]
+  ],
+  "abandonedCasinoEntered": true,
+  "abandonedCasinoUnlocked": true,
+  "addictionLevel": 0,
+  "addictionMessages": [
+    "もう1回だけ...",
+    "次で取り戻せる...",
+    "やめられない...",
+    "あと少しで大当たり...",
+    "画面が...歪んで見える...",
+    "これは...夢か...？",
+    "声が...聞こえる...",
+    "誰かが...呼んでいる..."
+  ],
+  "addictionWarningCount": 0,
+  "autoSaveTurns": 0,
+  "bellMetFirst": false,
+  "bellRouteACompleted": true,
+  "bellRouteBCompleted": true,
+  "bigWinCount": 0,
+  "blackSuitIntroduced": false,
+  "bloodAmulet5Wins": 0,
+  "bloodAmuletEquipped": false,
+  "bloodAmuletLoses": 0,
+  "chapter1Seen": false,
+  "consecutiveHundredPlays": 0,
+  "consecutiveLosses": 0,
+  "consecutiveWins": 0,
+  "contract1Complete": false,
+  "contract1WinCount": 0,
+  "contract2OriginalDebt": 0,
+  "cursedItemCount": 0,
+  "deathRing10Wins": 0,
+  "deathRingEquipped": false,
+  "debt": 0,
+  "debtTurnsRemaining": 0,
+  "devilCoinActive": false,
+  "devilCoinCurse": 0,
+  "devilCoinWin": false,
+  "devilContractActive": false,
+  "devilContractOffered": false,
+  "devilContractSuccess": false,
+  "devilContractTurns": 0,
+  "devilContractType": 0,
+  "dreamCasinoUnlocked": false,
+  "dreamLayerCleared": 0,
+  "glitchChars": [
+    "█",
+    "▓",
+    "▒",
+    "░",
+    "╬",
+    "╪",
+    "╫",
+    "║",
+    "═",
+    "╔",
+    "╗",
+    "╚",
+    "╝",
+    "▲",
+    "▼",
+    "◆",
+    "◇",
+    "★",
+    "☆",
+    "※",
+    "〓",
+    "■",
+    "□",
+    "●",
+    "○",
+    "?",
+    "!",
+    "#",
+    "%",
+    "&",
+    "@",
+    "$",
+    "/",
+    "\\",
+    "|",
+    "+",
+    "-",
+    "~"
+  ],
+  "godMode": false,
+  "godModeActivateCount": 0,
+  "godModePermanent": false,
+  "godModeRemaining": 0,
+  "greedRingEquipped": false,
+  "greedRingLoseCount": 0,
+  "hasBloodAmulet": false,
+  "hasDeathRing": false,
+  "hasDevilCoin": false,
+  "hasEverBorrowedMoney": false,
+  "hasExchangedMoney": false,
+  "hasGreedRing": false,
+  "hasInnocentGem": false,
+  "hasJewelRing": true,
+  "hasOracleBall": false,
+  "hasSeenConversation": false,
+  "hasSeenMysteriousWoman": false,
+  "hasSeenUndergroundDealer": false,
+  "hasSeenVIPDealer": false,
+  "hasTimeClock": false,
+  "hasUnknownCoin": false,
+  "hasUsedRehab": false,
+  "isAddicted": false,
+  "isInUnderground": false,
+  "isInVIPRoom": false,
+  "itemInventory": {
+    "お守り": 0,
+    "幸運のコイン": 0,
+    "返済猶予券": 0
+  },
+  "luckyCoinsTotal": 0,
+  "luckyTimeActive": false,
+  "luckyTimeRemaining": 0,
+  "maxConsecutiveWins": 0,
+  "maxDebt": 0,
+  "maxMoney": 1000,
+  "memoryFragmentsCleared": false,
+  "metaEventCount": 0,
+  "missionOpenCount": 0,
+  "missions": [],
+  "money": 1000,
+  "mushroomManMet": false,
+  "oracleBallPrediction": -1,
+  "overflowCleared": false,
+  "playerName": "プレイヤー",
+  "rankings": [
+    {
+      "Date": {
+        "__class__": "DateTime",
+        "_dt": "2026-01-01 00:00:00"
+      },
+      "Money": 1000,
+      "Name": "Tester",
+      "Spins": 0,
+      "__class__": "HighScore"
+    }
+  ],
+  "roomsOpened": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "rtaCleared": false,
+  "setting": 0,
+  "shopCloseWithoutBuyCount": 0,
+  "shopVisitCount": 0,
+  "timeClockEquipped": false,
+  "total777Count": 0,
+  "totalLoseAmount": 0,
+  "totalLoses": 0,
+  "totalLuckyCoinsPurchased": 0,
+  "totalSpins": 0,
+  "totalWinAmount": 0,
+  "trueEndingUnlocked": false,
+  "undergroundAllInWin": false,
+  "undergroundConsecutiveLoses": 0,
+  "undergroundCursedMode": false,
+  "undergroundDealerName": "ダークロード",
+  "undergroundTotalSpins": 0,
+  "undergroundUnlocked": false,
+  "undergroundVisits": 0,
+  "undergroundWins": 0,
+  "unknownCoinFlipCount": 0,
+  "unlockedEvents": [],
+  "unlockedSymbols": [
+    "スライム",
+    "ゴーレム"
+  ],
+  "vanityKeyPurchased": false,
+  "vip5000BetWin": false,
+  "vip777Count": 0,
+  "vipConsecutiveLoses": 0,
+  "vipDealerName": "ミス・フォーチュン",
+  "vipRoomUnlocked": false,
+  "vipTotalSpins": 0,
+  "vipTotalVisits": 0,
+  "vipTotalWins": 0
+}
