@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+tests/current/
+tests/_scratch*/
+saves/
+rankings.txt
+.claude/
