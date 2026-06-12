@@ -1,0 +1,27 @@
+{
+  "modules": {
+    "app": ["py_getflag", "py_setflag", "Main", "ShowTitleScreen", "InputPlayerName", "ShowLoadingScreen", "ChangeMachine", "ShowSettingSuggestion", "GameLoop", "CheckTrueEndCondition"],
+    "ui": ["TypewriterEffect", "TypeText", "GetBigNumber", "FormatTimeSpan", "GetAddictionBar", "GlitchText", "ScreenGlitch", "JackpotGlitch", "SpinGlitch", "MenuGlitch", "DrawTitle", "DrawReels"],
+    "slot_normal": ["NormalSpin", "MegaWinAnimation", "BigWinAnimation", "SmallWinAnimation", "LoseAnimation", "ReachEffect", "DoubleUpChallenge", "GodModeActivation", "LuckyTimeActivation", "FreezeEffect", "GreedRingMegaWinAnimation", "GreedRingBigWinAnimation", "GreedRingSmallWinAnimation", "GreedRingLoseAnimation"],
+    "vip": ["VIPRoomUnlockEvent", "VIPDealerFirstMeeting", "EnterVIPRoom", "ExitVIPRoom", "VIPRoomLoop", "VIPSpin", "DrawVIPTitle", "VIPMegaWinAnimation", "VIPBigWinAnimation", "VIPSmallWinAnimation", "VIPLoseAnimation", "VIPReachEffect", "VIPDoubleUpChallenge", "VIPThreeLossEvent", "VIPRandomEvent"],
+    "underground": ["UndergroundUnlockByDebt", "UndergroundDealerFirstMeeting", "EnterUnderground", "ExitUnderground", "UndergroundLoop", "UndergroundSpin", "DrawUndergroundTitle", "UndergroundMegaWinAnimation", "UndergroundBigWinAnimation", "UndergroundSmallWinAnimation", "UndergroundLoseAnimation", "UndergroundCursedEvent", "UndergroundRandomEvent", "UndergroundAllInLoseEvent"],
+    "persistence": ["SaveGame", "LoadGame", "SaveMenu", "LoadMenu", "DeleteSaveMenu", "SaveRanking", "LoadRankings"],
+    "shop": ["ShopMenu", "GetBellGreeting", "GetBellPurchaseComment", "GetBellFarewell", "ShopHiddenPage", "BuyExchangedMoney", "PurchaseCursedItemWithBell"],
+    "items": ["EquipmentMenu", "UseDevilCoin", "ToggleBloodAmulet", "ToggleDeathRing", "ToggleTimeClock", "UseOracleBall", "UnequipAll", "UseRehabTicket"],
+    "missions": ["InitializeMissions", "ShowUncompletedMissions", "ShowAllMissions", "CheckMissions"],
+    "stats": ["ShowRankings", "ShowCollection", "UnlockSymbol"],
+    "dream": ["CanEnterDream", "MushroomManFirstMeet", "EnterDreamCasino", "DreamLayer1", "DreamLayer2", "DreamLayer3", "DreamLayer4", "DreamLayerFinal", "DreamWakeUp", "DreamWakeUpFinal", "MushroomManWaiting", "BellDreamLine"],
+    "abandoned": ["EnterAbandonedCasino", "AbandonedCasinoFloor1", "Room1F_A", "Room1F_B", "Room1F_C", "Room1F_D", "Room1F_Final", "GoToFloor2", "AbandonedCasinoFloor2", "Room2F_A", "Room2F_B", "Room2F_C", "Room2F_D", "Room2F_Final", "GoToFloor3", "AbandonedCasinoFloor3", "Room3F_A", "Room3F_B", "Room3F_C", "Room3F_D", "Room3F_Final", "AbandonedCasinoExit", "AbandonedCasinoExitEvent", "ExitAbandonedCasino", "BasementDoorFound", "BasementEvent", "PrintRoomOption", "OpenRoom", "BlackSuitFinalConfrontation", "EndingRouteA_Owner", "EndingRouteB_Bell", "UnknownCoinFlip"],
+    "events": ["RandomConversationEvent", "MysteriousWomanEvent", "Devilmonster", "BlackSuitArrival", "BlackSuitWarningEvent", "DebtCollectionEvent", "Chapter1_FirstConversation", "InnocentGemFound", "GreedRingEquipAnimation", "GreedWhisperEvent"],
+    "contracts": ["DevilContractOfferEvent", "DevilContractMenu", "ExecuteDevilContract"],
+    "addiction": ["ShowAddictionMessage", "AddictionHallucinationEffect", "AddictionWaveEffect_Soft", "AddictionWaveEffect_Break", "AddictionWaveEffect_Chaos"],
+    "endings": ["OverflowHiddenEnding", "LaborEnding", "ExecutionEnding", "GreedRingBadEnding", "AddictionBadEnding", "DevilContract1BadEnding", "DevilContract2TimeUpEnding", "DevilContract1Success", "DevilContract2Success", "TrueEnding", "ShowEnding", "ShowCredits", "BloodAmuletBadEnding"],
+    "devmode": ["DevModeEntry", "DevModeMenu", "DevStatusMenu", "DevFlagMenu", "DevItemMenu", "DevSlotMenu", "DevTimeMenu", "DevDebugInfo", "DevUnlockAll", "DevResetAll", "DevEventGallery", "DevGalleryFloor1", "DevGalleryFloor2", "DevGalleryFloor3", "DevMsg"]
+  },
+  "notes": [
+    "GreedRing*Animation は呼び出し元が NormalSpin のみのため slot_normal に配置",
+    "BellDreamLine は呼び出し元が DreamLayer* のみのため dream に配置",
+    "EndingRouteA_Owner/EndingRouteB_Bell/AbandonedCasinoExitEvent は廃カジノフロー専用のため abandoned に配置",
+    "py_getflag/py_setflag は transform.py が state へ強制移動 (globals() 動的アクセスのため)"
+  ]
+}

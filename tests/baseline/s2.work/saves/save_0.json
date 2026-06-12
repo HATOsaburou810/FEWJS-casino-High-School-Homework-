@@ -1,0 +1,589 @@
+{
+  "OverflowCleared": false,
+  "RtaCleared": false,
+  "GameStartTime": {
+    "__dt__": "2026-01-01T12:00:00"
+  },
+  "PlayerName": "Tester",
+  "SaveDate": {
+    "__dt__": "2026-01-01T12:00:00"
+  },
+  "PlayTime": {
+    "__ts__": 0.0
+  },
+  "SaveSlot": 0,
+  "Money": 2800,
+  "Debt": 0,
+  "MaxMoney": 3200,
+  "MaxDebt": 0,
+  "GodModeActivateCount": 1,
+  "ConsecutiveLosses": 2,
+  "TotalSpins": 20,
+  "Total777Count": 0,
+  "ConsecutiveWins": 0,
+  "MaxConsecutiveWins": 7,
+  "TotalWinAmount": 2000,
+  "TotalLoseAmount": 900,
+  "TotalLoses": 2,
+  "BigWinCount": 0,
+  "Setting": 4,
+  "DebtTurnsRemaining": 0,
+  "HasEverBorrowedMoney": false,
+  "GodMode": true,
+  "GodModeRemaining": 10,
+  "ConsecutiveHundredPlays": 0,
+  "LuckyTimeActive": false,
+  "LuckyTimeRemaining": 0,
+  "HasSeenConversation": true,
+  "HasSeenMysteriousWoman": true,
+  "UndergroundConsecutiveLoses": 0,
+  "UndergroundTotalSpins": 0,
+  "UndergroundCursedMode": false,
+  "ItemInventory": {
+    "お守り": 0,
+    "幸運のコイン": 0,
+    "返済猶予券": 0
+  },
+  "TotalLuckyCoinsPurchased": 0,
+  "HasGreedRing": false,
+  "GreedRingEquipped": false,
+  "GreedRingLoseCount": 0,
+  "VipRoomUnlocked": false,
+  "IsInVIPRoom": false,
+  "VipConsecutiveLoses": 0,
+  "Vip777Count": 0,
+  "Vip5000BetWin": false,
+  "VipTotalVisits": 0,
+  "VipTotalWins": 0,
+  "VipTotalSpins": 0,
+  "HasSeenVIPDealer": false,
+  "UndergroundUnlocked": false,
+  "IsInUnderground": false,
+  "UndergroundVisits": 0,
+  "UndergroundWins": 0,
+  "UndergroundAllInWin": false,
+  "HasSeenUndergroundDealer": false,
+  "DevilContractOffered": false,
+  "DevilContractType": 0,
+  "DevilContractActive": false,
+  "DevilContractTurns": 0,
+  "ContractStartTime": {
+    "__dt__": "0001-01-01T00:00:00"
+  },
+  "Contract1Complete": false,
+  "DevilContractSuccess": false,
+  "AddictionLevel": 47,
+  "IsAddicted": false,
+  "AddictionWarningCount": 0,
+  "HasUsedRehab": false,
+  "CursedItemCount": 0,
+  "HasDevilCoin": false,
+  "DevilCoinCurse": 0,
+  "DevilCoinWin": false,
+  "HasBloodAmulet": false,
+  "BloodAmuletLoses": 0,
+  "BloodAmulet5Wins": 0,
+  "HasDeathRing": false,
+  "DeathRing10Wins": 0,
+  "HasTimeClock": false,
+  "HasOracleBall": false,
+  "OracleBallPrediction": -1,
+  "DevilCoinActive": false,
+  "BloodAmuletEquipped": false,
+  "DeathRingEquipped": false,
+  "TimeClockEquipped": false,
+  "MetaEventCount": 0,
+  "UnlockedSymbols": [
+    "スライム",
+    "ゴーレム"
+  ],
+  "UnlockedEvents": [
+    "謎のおじさん",
+    "謎の女性",
+    "ミステリアスなお姉さん",
+    "GOD MODE"
+  ],
+  "Missions": [
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "初心者",
+        "Description": "50G以下で1回勝利",
+        "Reward": 100,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "連勝の始まり",
+        "Description": "3連勝を達成",
+        "Reward": 200,
+        "Completed": true
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "連勝マスター",
+        "Description": "5連勝を達成",
+        "Reward": 500,
+        "Completed": true
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "無借金主義",
+        "Description": "借金せずに所持金2000G達成",
+        "Reward": 300,
+        "Completed": true
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "777ハンター",
+        "Description": "777を1回揃える",
+        "Reward": 1000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "借金返済の達人",
+        "Description": "借金を完済する",
+        "Reward": 300,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "GODへの道",
+        "Description": "100G連続10回プレイ",
+        "Reward": 200,
+        "Completed": true
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "粘り強さ",
+        "Description": "20回転連続でプレイ",
+        "Reward": 150,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "強運の持ち主",
+        "Description": "設定6を引き当てる",
+        "Reward": 500,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "ギャンブラー",
+        "Description": "総回転数100回達成",
+        "Reward": 1000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "強欲",
+        "Description": "幸運のコインを10個購入",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "破滅への道",
+        "Description": "強欲の指輪装備中に借金5000G到達",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "セレブへの道",
+        "Description": "所持金10000G到達してVIPルーム解放",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "VIPの洗礼",
+        "Description": "VIPルームで初勝利",
+        "Reward": 1000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "ハイローラー",
+        "Description": "VIPルームで5000Gベットで勝利",
+        "Reward": 3000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "VIPマスター",
+        "Description": "VIPルームで777を揃える",
+        "Reward": 5000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "奈落への扉",
+        "Description": "地下カジノを解放",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "地獄の訪問者",
+        "Description": "地下カジノに初めて入る",
+        "Reward": 500,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "奈落の生還者",
+        "Description": "地下カジノで1回勝利",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "闇の常連客",
+        "Description": "地下カジノを5回訪問",
+        "Reward": 2000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "奈落の覇者",
+        "Description": "地下カジノで全財産ベットして勝利",
+        "Reward": 10000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "悪魔の誘惑",
+        "Description": "悪魔から契約を提示される",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "契約者",
+        "Description": "悪魔と契約する（種類問わず）",
+        "Reward": 1500,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "魂の代償",
+        "Description": "契約1「魂の担保」で10連勝達成",
+        "Reward": 5000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "悪魔を欺く者",
+        "Description": "いずれかの契約を成功させる",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "止まらない",
+        "Description": "中毒度20到達",
+        "Reward": 300,
+        "Completed": true
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "依存症",
+        "Description": "中毒度50到達",
+        "Reward": 800,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "末期症状",
+        "Description": "中毒度80到達",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "制御不能",
+        "Description": "中毒度100到達",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "更生の道",
+        "Description": "リハビリ券で中毒度を50以下に下げる",
+        "Reward": 3000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "禁断の力",
+        "Description": "呪いのアイテムを1つ入手",
+        "Reward": 500,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "コレクター",
+        "Description": "呪いのアイテムを3種類入手",
+        "Reward": 1500,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "呪われし者",
+        "Description": "呪いのアイテムを全種類入手",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "悪魔のささやき",
+        "Description": "悪魔のコインで勝利",
+        "Reward": 1000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "血の契約",
+        "Description": "血塗られたお守りを装備して5連勝",
+        "Reward": 2000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "死神との賭け",
+        "Description": "死神の指輪で10回勝利",
+        "Reward": 5000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "第四の壁",
+        "Description": "メタ演出を3種類以上体験",
+        "Reward": 2000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "真実を知る者",
+        "Description": "全てのイベントを閲覧",
+        "Reward": 3000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "完全主義者",
+        "Description": "全ての絵柄を解放",
+        "Reward": 2000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "生存者",
+        "Description": "借金20000G以上から完済",
+        "Reward": 10000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "伝説のギャンブラー",
+        "Description": "全ミッション達成",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 5000,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 0,
+        "Completed": false
+      }
+    },
+    {
+      "__cls__": "MissionSaveData",
+      "data": {
+        "Name": "???",
+        "Description": "???",
+        "Reward": 0,
+        "Completed": false
+      }
+    }
+  ],
+  "Rankings": [],
+  "TrueEndingUnlocked": false,
+  "GodModePermanent": false,
+  "Contract1WinCount": 0,
+  "Contract2Deadline": {
+    "__dt__": "0001-01-01T00:00:00"
+  },
+  "Contract2OriginalDebt": 0,
+  "ShopVisitCount": 0,
+  "ShopCloseWithoutBuyCount": 0,
+  "BellMetFirst": false,
+  "MissionOpenCount": 0,
+  "DreamCasinoUnlocked": false,
+  "DreamLayerCleared": 0,
+  "MushroomManMet": false,
+  "LuckyCoinsTotal": 0,
+  "Chapter1Seen": false,
+  "MemoryFragmentsCleared": false,
+  "BlackSuitIntroduced": false,
+  "AbandonedCasinoUnlocked": false,
+  "AbandonedCasinoEntered": false,
+  "VanityKeyPurchased": false,
+  "RoomsOpened": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "HasInnocentGem": false,
+  "HasJewelRing": false,
+  "HasExchangedMoney": false,
+  "HasUnknownCoin": false,
+  "UnknownCoinFlipCount": 0,
+  "BellRouteACompleted": false,
+  "BellRouteBCompleted": false
+}
